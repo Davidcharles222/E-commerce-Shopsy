@@ -27,7 +27,7 @@ const ProductData = [
   },
 ];
 
-const TopProducts = () => {
+const TopProducts = ({ handleOrderPopup }) => {
   return (
     <div>
       <div className="container">
